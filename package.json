@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "env": "0.0.2",
+    "express": "^4.17.1",
     "node": "^16.4.0"
   }
 }
