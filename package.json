@@ -13,5 +13,15 @@
     "env": "0.0.2",
     "express": "^4.17.1",
     "node": "^16.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdrabot/Note_Taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jdrabot/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/jdrabot/Note_Taker#readme"
 }
