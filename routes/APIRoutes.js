@@ -8,17 +8,17 @@ module.exports = (app) => {
 
     app.post("/api/notes", (req, res) => {
         let note = req.body;
-        let noteid = (note.length).toString();
+        let noteid = Date.now();
 
         note.id = noteid;
         noteData.push(note);
 
-        fs.writeFileSync("./db/db.json", JSON.stringify(notedata), (err) => {
+        fs.writeFileSync("./db/db.json", JSON.stringify(noteData), (err) => {
             if (err)
                 throw (err);
         });
 
-        res.json(notedata);
+        res.json(noteData);
 
     });
 }
